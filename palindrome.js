@@ -5,9 +5,9 @@ function(str){
 		bag += str[i];
 	}
 	if(str==bag){
-		console.log("Not a Palindrome);
+		console.log("Palindrome);
 	}else{
-		console.log("Palindrome");
+		console.log("Not Palindrome");
 	}
 
 }
