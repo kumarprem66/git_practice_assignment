@@ -1,7 +1,9 @@
+
 function checkPrime(number){
 	let count = 0;
 	for(let i=1;i<=Math.sqrt(number);i++){
 		if(number%i==1){
+
 			count++;
 		}
 	}

@@ -7,7 +7,9 @@ function checkPalindrome(str){
 	if(str==bag){
 		console.log("Palindrome);
 	}else{
+
 		console.log("Not a Palindrome");
+
 	}
 
 }
