@@ -1,7 +1,9 @@
-function(number){
+
+function checkPrime(number){
 	let count = 0;
-	for(let i=1;i<=number/2;i++){
-		if(number%i==0){
+	for(let i=1;i<=Math.sqrt(number);i++){
+		if(number%i==1){
+
 			count++;
 		}
 	}
@@ -12,3 +14,5 @@ function(number){
 	}
 
 }
+
+checkPrime(23);
